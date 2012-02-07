@@ -7,11 +7,15 @@
         .widget { border: 2px solid; margin-bottom: 1em; padding: .5em; }
         .active { color: green; }
     </style>
-    <script type="text/javascript">window.JSON || document.write( '<script src="json2.js"><\/script>' )</script>
-    <script type="text/javascript" src="jquery-1.6.3.js"></script>
-    <script type="text/javascript" src="OpenAjax.js"></script>
-    <script type="text/javascript" src="jquery-hub.js"></script>
-    <script type="text/javascript" src="demo.js"></script>
+    <script type="text/javascript">
+		if (!JSON && !window.JSON) {
+			document.write('<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>');
+		}
+	</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../lib/OpenAjaxUnmanagedHub-2.0.7.min.js"></script>
+	<script type="text/javascript" src="../src/jquery.hub.js"></script>
+    <script type="text/javascript" src="demo-coupled.js"></script>
 </head>
 <body>
     <h1>Demo</h1>

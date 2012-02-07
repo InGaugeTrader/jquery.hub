@@ -1,22 +1,26 @@
 ﻿<!DOCTYPE HTML>
 <html>
 	<head>
-		<title>$.hub Test Runner</title>
+		<title>jquery.hub Test Runner</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<script type="text/javascript">window.JSON || document.write('<script src="..\/json2.js"><\/script>')</script>
-		<script type="text/javascript" src="../jquery-1.6.3.js"></script>
-		<link rel="stylesheet" href="qunit.css" type="text/css" media="screen"/>
-		<script type="text/javascript" src="qunit.js"></script>
-				
-		<!-- NOTE:  Add references to your qunit scripts here -->
-        <script type="text/javascript" src="../amplify.core.js"></script>
-		<script type="text/javascript" src="../OpenAjax.js"></script>
-		<script type="text/javascript" src="../jquery-hub.js"></script>
+		<!-- Testing library -->
+		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/qunit/qunit-1.2.0.css" media="screen"/>
+		<script type="text/javascript" src="http://code.jquery.com/qunit/qunit-1.2.0.js"></script>
+		
+		<!-- Supporting script libraries -->
+		<script type="text/javascript">
+			if (!JSON && !window.JSON) {
+				document.write('<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>');
+			}
+		</script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../lib/OpenAjaxUnmanagedHub-2.0.7.min.js"></script>
+		
+		<!-- Scripts under test -->
+        <script type="text/javascript" src="../src/jquery.hub.js"></script>
 
-        <script type="text/javascript" src="jquery.tests.js"></script>
-        <script type="text/javascript" src="amplify.tests.js"></script>
-		<script type="text/javascript" src="jquery-hub.tests.js"></script>
-
+		<!-- Actual tests -->
+		<script type="text/javascript" src="jquery.hub.tests.js"></script>
 	</head>
 	<body>
 		<h1 id="qunit-header">QUnit example</h1>
