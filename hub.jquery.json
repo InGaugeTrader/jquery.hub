@@ -1,8 +1,8 @@
 {
   "name": "hub",
   "title": "jquery.hub",
-  "description": "A simple jQuery plugin to get or set a node's outer HTML, a la IE's [formerly] proprietary `outerHTML` property on elements. Get the outer HTML contents of the first node in the set of matched elements or set the outer HTML contents of every matched node.",
-  "version": "0.5.0",
+  "description": "A well-tested jQuery plugin implementing enterprise-level messaging patterns atop the OpenAjax [Unmanaged] Hub. Great for decoupling cross-component communication on the client-side.",
+  "version": "0.5.1",
   "homepage": "https://github.com/JamesMGreene/jquery.hub",
   "author": {
     "name": "James M. Greene",

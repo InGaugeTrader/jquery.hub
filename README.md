@@ -47,5 +47,5 @@ In your web page:
 _(Coming soon)_
 
 ## Release History
- - 0.5.0: Published to the jQuery Plugins Registry on 2013-02-14.
-     - Initial release
+ - 0.5.1: Published to the jQuery Plugins Registry on 2013-02-14.
+     - Initial release, plus a manifest description fix.
