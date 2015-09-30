@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JamesMGreene/jquery.hub.png)](https://travis-ci.org/JamesMGreene/jquery.hub)
+[![Build Status](https://travis-ci.org/JamesMGreene/jquery.hub.png?branch=master)](https://travis-ci.org/JamesMGreene/jquery.hub)
 
 # jquery.hub
 
