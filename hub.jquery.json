@@ -2,12 +2,12 @@
   "name": "hub",
   "title": "jquery.hub",
   "description": "A well-tested jQuery plugin implementing enterprise-level messaging patterns atop the OpenAjax [Unmanaged] Hub. Great for decoupling cross-component communication on the client-side.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "homepage": "https://github.com/JamesMGreene/jquery.hub",
   "author": {
     "name": "James M. Greene",
     "email": "james.m.greene@gmail.com",
-    "url": "http://jamesgreene.net/"
+    "url": "http://greene.io/"
   },
   "repository": {
     "type": "git",
